@@ -1,0 +1,19 @@
+!path ../build/:activation-1.1.jar:httpunit.jar:js-1.6R5.jar:jtidy-4aug2000r7-dev.jar:junit-3.8.1.jar:mail-1.4.jar:nekohtml-0.9.5.jar:servlet-api-2.4.jar:xercesImpl-2.6.1.jar:xmlParserAPIs-2.6.1.jar
+
+IN WINDOWS CLASPATH SEPARATED BY ; IN NIX :
+path ../build;activation-1.1.jar;httpunit.jar;js-1.6R5.jar;jtidy-4aug2000r7-dev.jar;junit-3.8.1.jar;mail-1.4.jar;nekohtml-0.9.5.jar;servlet-api-2.4.jar;xercesImpl-2.6.1.jar;xmlParserAPIs-2.6.1.jar;
+!contents -g
+
+|ml.fixture.HttpConnectFixture|
+|path|getResponseCode?|getTitle?|
+|/application|200|Audit enquiries|
+
+|ml.fixture.HttpConnectFixture|
+|path|contains|getContains?|
+|/application|<H1 class="page-header" id="wb-cont" property="name">My Messages</H1>|true|
+
+|ml.fixture.HttpConnectFixture|
+|path|contains|getContains?|
+|/application|<A href="http://www.cra-arc.gc.ca/menu-eng.html"><SPAN>Message Centre</SPAN> </A>|true|
+
+path ../build; ../lib/activation-1.1.jar;../lib/httpunit.jar;../lib/js-1.6R5.jar;../lib/jtidy-4aug2000r7-dev.jar;../lib/junit-3.8.1.jar;../lib/mail-1.4.jar;../lib/nekohtml-0.9.5.jar;../lib/servlet-api-2.4.jar;../lib/xercesImpl-2.6.1.jar;../lib/xmlParserAPIs-2.6.1.jar;

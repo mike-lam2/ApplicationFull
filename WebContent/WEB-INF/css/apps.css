@@ -1,0 +1,15 @@
+.label-error {
+	text-align: left; display: block; white-space: normal;
+}
+legend {
+	padding-bottom: 4px; font-size: 100%; font-weight: 700;
+}
+@media print
+{
+a[href]::after {
+	content: "";
+}
+abbr[title]::after {
+	content: "";
+}
+}

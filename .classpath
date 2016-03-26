@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src_test"/>
+	<classpathentry kind="src" path="src_fitnesse"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="Fitnesse/fitnesse.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/commons-beanutils-1.6.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/httpunit.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/js-1.6R5.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/jtidy-4aug2000r7-dev.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/nekohtml-0.9.5.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/servlet-api-2.4.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/xercesImpl-2.6.1.jar"/>
+	<classpathentry kind="lib" path="Fitnesse/xmlParserAPIs-2.6.1.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

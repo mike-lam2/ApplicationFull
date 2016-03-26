@@ -1,0 +1,51 @@
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+
+.chat .chat-message {
+  padding: 30px;
+}
+textarea {    
+  width: 95%;
+  border: none;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+	color: gray;
+	background-color : #F2F5F8;
+	padding: 1em;
+		box-shadow: inset 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+
+}
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+.chat .chat-message button {
+  
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
+}
+.chat .chat-message button:hover {
+  color: #75b1e8;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
