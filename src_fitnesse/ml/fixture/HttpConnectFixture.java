@@ -37,7 +37,7 @@ public class HttpConnectFixture extends ColumnFixture {
 	@Override
 	public void execute() throws Exception {
 		super.execute();
-		con = new HttpConnect("52.1.154.230", "8080", "");
+		con = new HttpConnect("52.200.10.38", "8080", "");
 		con.execute(path, HttpConnect.POST);
 	}
 
