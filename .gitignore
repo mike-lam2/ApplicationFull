@@ -1,4 +1,4 @@
-/FitNesse/FitNesseRoot/ErrorLogs/**/*
-/FitNesse/FitNesseRoot/files/testProgress/**/*
-/FitNesse/FitNesseRoot/files/testResults/**/*
+/Fitnesse/FitNesseRoot/ErrorLogs/**
+/Fitnesse/FitNesseRoot/files/testProgress/**
+/Fitnesse/FitNesseRoot/files/testResults/**
 
